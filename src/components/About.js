@@ -1,4 +1,5 @@
 import React from "react";
+import Clients from "./Clients";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 
@@ -27,6 +28,7 @@ const About = () => {
       </section>
       <Services />
       <Testimonials />
+      <Clients />
     </article>
   );
 };
