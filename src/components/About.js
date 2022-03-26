@@ -1,5 +1,6 @@
 import React from "react";
 import Services from "./Services";
+import Testimonials from "./Testimonials";
 
 const About = () => {
   return (
@@ -25,6 +26,7 @@ const About = () => {
         </p>
       </section>
       <Services />
+      <Testimonials />
     </article>
   );
 };
