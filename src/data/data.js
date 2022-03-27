@@ -129,3 +129,60 @@ export const projectsData = [
     projectCategory: "Web development",
   },
 ];
+
+export const blogsData = [
+  {
+    id: 1,
+    blogThumbail: "./assets/images/blog-1.jpg",
+    blogCategory: "Design",
+    date: "Feb 23, 2022",
+    blogTitle: "Design Conferences In 2022",
+    blogDesc:
+      "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
+  },
+  {
+    id: 2,
+    blogThumbail: "./assets/images/blog-2.jpg",
+    blogCategory: "Design",
+    date: "Feb 23, 2022",
+    blogTitle: "Best Fonts Every Designer",
+    blogDesc:
+      "Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.",
+  },
+  {
+    id: 3,
+    blogThumbail: "./assets/images/blog-3.jpg",
+    blogCategory: "Design",
+    date: "Feb 23, 2022",
+    blogTitle: "Design Digest #80",
+    blogDesc:
+      "Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.",
+  },
+  {
+    id: 4,
+    blogThumbail: "./assets/images/blog-4.jpg",
+    blogCategory: "Design",
+    date: "Feb 23, 2022",
+    blogTitle: "UI Interactions Of The Week",
+    blogDesc:
+      "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.",
+  },
+  {
+    id: 5,
+    blogThumbail: "./assets/images/blog-5.jpg",
+    blogCategory: "Design",
+    date: "Feb 23, 2022",
+    blogTitle: "The Forgotten Art Of Spacing",
+    blogDesc:
+      "Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 6,
+    blogThumbail: "./assets/images/blog-6.jpg",
+    blogCategory: "Design",
+    date: "Feb 23, 2022",
+    blogTitle: "Design Digest #79",
+    blogDesc:
+      "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.",
+  },
+];
