@@ -45,3 +45,30 @@ export const timelineExperienceData = [
       "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.",
   },
 ];
+
+export const skillsData = [
+  {
+    id: 1,
+    skillName: "Web design",
+    skillPercent: "80%",
+    progressBarWidth: "80%",
+  },
+  {
+    id: 2,
+    skillName: "Graphic design",
+    skillPercent: "70%",
+    progressBarWidth: "70%",
+  },
+  {
+    id: 3,
+    skillName: "Branding",
+    skillPercent: "90%",
+    progressBarWidth: "90%",
+  },
+  {
+    id: 4,
+    skillName: "WordPress",
+    skillPercent: "50%",
+    progressBarWidth: "50%",
+  },
+];
