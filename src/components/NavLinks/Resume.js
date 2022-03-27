@@ -1,5 +1,5 @@
 import React from "react";
-import { timelineEducationData } from "../../data/data";
+import { timelineEducationData, timelineExperienceData } from "../../data/data";
 
 const Resume = () => {
   const educationData = timelineEducationData.map((education) => {
@@ -15,6 +15,21 @@ const Resume = () => {
       </>
     );
   });
+
+  const experienceData = timelineExperienceData.map((experience) => {
+    return (
+      <>
+        <li key={experience.id} className="timeline-item">
+          <h4 className="h4 timeline-item-title">{experience.title}</h4>
+
+          <span> {experience.duration} </span>
+
+          <p className="timeline-text">{experience.description}</p>
+        </li>
+      </>
+    );
+  });
+
   return (
     <article className="resume active" data-page="resume">
       <header>
@@ -29,9 +44,7 @@ const Resume = () => {
 
           <h3 className="h3">Education</h3>
         </div>
-        <ol className="timeline-list">
-        {educationData}
-        </ol>
+        <ol className="timeline-list">{educationData}</ol>
       </section>
 
       <section className="timeline">
@@ -43,40 +56,7 @@ const Resume = () => {
           <h3 className="h3">Experience</h3>
         </div>
 
-        <ol className="timeline-list">
-          <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Creative director</h4>
-
-            <span>2015 — Present</span>
-
-            <p className="timeline-text">
-              Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit
-              atque corrupti, quos dolores et qvuas molestias exceptur.
-            </p>
-          </li>
-
-          <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Art director</h4>
-
-            <span>2013 — 2015</span>
-
-            <p className="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias exceptur.
-            </p>
-          </li>
-
-          <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">Web designer</h4>
-
-            <span>2010 — 2013</span>
-
-            <p className="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias exceptur.
-            </p>
-          </li>
-        </ol>
+        <ol className="timeline-list">{experienceData}</ol>
       </section>
 
       <section className="skill">
