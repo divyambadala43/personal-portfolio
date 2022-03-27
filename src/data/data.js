@@ -72,3 +72,60 @@ export const skillsData = [
     progressBarWidth: "50%",
   },
 ];
+
+export const projectsData = [
+  {
+    id: 1,
+    thumbnail: "./assets/images/project-1.jpg",
+    projectTitle: "Finance",
+    projectCategory: "Web development",
+  },
+  {
+    id: 2,
+    thumbnail: "./assets/images/project-2.png",
+    projectTitle: "Orizon",
+    projectCategory: "Web development",
+  },
+  {
+    id: 3,
+    thumbnail: "./assets/images/project-3.jpg",
+    projectTitle: "Fundo",
+    projectCategory: "Web design",
+  },
+  {
+    id: 4,
+    thumbnail: "./assets/images/project-4.png",
+    projectTitle: "Brawlhalla",
+    projectCategory: "Applications",
+  },
+  {
+    id: 5,
+    thumbnail: "./assets/images/project-5.png",
+    projectTitle: "DSM",
+    projectCategory: "Web design",
+  },
+  {
+    id: 6,
+    thumbnail: "./assets/images/project-6.png",
+    projectTitle: "MetaSpark",
+    projectCategory: "Web design",
+  },
+  {
+    id: 7,
+    thumbnail: "./assets/images/project-7.png",
+    projectTitle: "Summary",
+    projectCategory: "Web development",
+  },
+  {
+    id: 8,
+    thumbnail: "./assets/images/project-8.jpg",
+    projectTitle: "Task Manager",
+    projectCategory: "Applications",
+  },
+  {
+    id: 9,
+    thumbnail: "./assets/images/project-9.png",
+    projectTitle: "Arrival",
+    projectCategory: "Web development",
+  },
+];

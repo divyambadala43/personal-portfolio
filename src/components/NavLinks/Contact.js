@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <article class="contact active" data-page="contact">
+    <article className="contact active" data-page="contact">
       <header>
-        <h2 class="h2 article-title">Contact</h2>
+        <h2 className="h2 article-title">Contact</h2>
       </header>
 
-      <section class="mapbox" data-mapbox>
+      <section className="mapbox" data-mapbox>
         <figure>
           <iframe
             title="location"
@@ -19,15 +19,15 @@ const Contact = () => {
         </figure>
       </section>
 
-      <section class="contact-form">
-        <h3 class="h3 form-title">Contact Form</h3>
+      <section className="contact-form">
+        <h3 className="h3 form-title">Contact Form</h3>
 
-        <form action="#" class="form" data-form>
-          <div class="input-wrapper">
+        <form action="#" className="form" data-form>
+          <div className="input-wrapper">
             <input
               type="text"
               name="fullname"
-              class="form-input"
+              className="form-input"
               placeholder="Full name"
               required
               data-form-input
@@ -36,7 +36,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              class="form-input"
+              className="form-input"
               placeholder="Email address"
               required
               data-form-input
@@ -45,13 +45,13 @@ const Contact = () => {
 
           <textarea
             name="message"
-            class="form-input"
+            className="form-input"
             placeholder="Your Message"
             required
             data-form-input
           ></textarea>
 
-          <button class="form-btn" type="submit" disabled data-form-btn>
+          <button className="form-btn" type="submit" disabled data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
             <span>Send Message</span>
           </button>
